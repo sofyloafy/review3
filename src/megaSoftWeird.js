@@ -1,12 +1,14 @@
 class megaSoftWeird {
 
-  spellChecker(word) {
-    let wordBank = ["Hello"]
-    if (wordBank.includes(word)){
-      return word
+  spellChecker(string) {
+    let wordBank = ["Hello", "World"]
+    let splitSentence = string.split(" ")
+    splitSentence.some(element => wordBank.includes(element))
+    if (splitSentence.some(element => wordBank.includes(element)) === true){
+      return string
     }
   }
-
 }
 
 module.exports = megaSoftWeird;
+

@@ -5,6 +5,11 @@ describe("#MegaSoftWeird", () => {
 
   test('it should return a string unchanged if in array', () =>{
     expect(megaSoftWeird.spellChecker("Hello")).toBe("Hello")
+
+  })
+
+  test('it should return a string unchanged if in array', () =>{
+    expect(megaSoftWeird.spellChecker("Hello World")).toBe("Hello World")
     
   })
 
