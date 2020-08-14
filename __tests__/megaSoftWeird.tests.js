@@ -13,4 +13,9 @@ describe("#MegaSoftWeird", () => {
     
   })
 
+  test('it should return a word with ~ either side if not present in array', () =>{
+    expect(megaSoftWeird.spellChecker("Hellp World")).toBe("~Hellp~ World")
+    
+  })
+
 })
