@@ -27,3 +27,4 @@ spellChecker('Hello there I am Wormd')
 
 ## Approach
 This repo looks at an [inside-out](https://8thlight.com/blog/georgina-mcfadyen/2016/06/27/inside-out-tdd-vs-outside-in.html) approach to testing, which meant building up each test incrementally until full functonality was in place.
+For a look at the same kata with an outside-in approach to TDD, have a look [over here](https://github.com/sofyloafy/outside-in-paperScanner).
